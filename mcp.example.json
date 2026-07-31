@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "node",
+      "args": ["/absolute/path/to/weather-mcp/build/index.js"],
+      "env": {
+        "OPENWEATHER_API_KEY": "your-openweather-api-key-here"
+      }
+    }
+  }
+}
